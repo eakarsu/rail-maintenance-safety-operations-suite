@@ -1,0 +1,14 @@
+{
+  "name": "rail-maintenance-safety-operations-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rail asset maintenance, inspections, safety events, crew scheduling, work orders, compliance, and service reliability.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

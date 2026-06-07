@@ -1,0 +1,145 @@
+{
+  "slug": "rail-maintenance-safety-operations-suite",
+  "title": "Rail Maintenance Safety Operations Suite",
+  "buyer": "Rail operators, transit agencies, freight rail, maintenance contractors",
+  "description": "Rail asset maintenance, inspections, safety events, crew scheduling, work orders, compliance, and service reliability.",
+  "modules": [
+    {
+      "id": "assets",
+      "table": "assets",
+      "label": "Rail Assets",
+      "description": "Rail Assets workspace for Rail Maintenance Safety Operations Suite.",
+      "subfeatures": [
+        "Track",
+        "Signals",
+        "Rolling stock"
+      ],
+      "prefix": "RA",
+      "seedValues": [
+        "Track",
+        "Signals",
+        "Rolling stock"
+      ]
+    },
+    {
+      "id": "inspections",
+      "table": "inspections",
+      "label": "Inspections",
+      "description": "Inspections workspace for Rail Maintenance Safety Operations Suite.",
+      "subfeatures": [
+        "Track walks",
+        "Defects",
+        "Priority"
+      ],
+      "prefix": "I",
+      "seedValues": [
+        "Track walks",
+        "Defects",
+        "Priority"
+      ]
+    },
+    {
+      "id": "work-orders",
+      "table": "workOrders",
+      "label": "Work Orders",
+      "description": "Work Orders workspace for Rail Maintenance Safety Operations Suite.",
+      "subfeatures": [
+        "Corrective work",
+        "Parts",
+        "Crew"
+      ],
+      "prefix": "WO",
+      "seedValues": [
+        "Corrective work",
+        "Parts",
+        "Crew"
+      ]
+    },
+    {
+      "id": "safety-events",
+      "table": "safetyEvents",
+      "label": "Safety Events",
+      "description": "Safety Events workspace for Rail Maintenance Safety Operations Suite.",
+      "subfeatures": [
+        "Near misses",
+        "Incidents",
+        "Root cause"
+      ],
+      "prefix": "SE",
+      "seedValues": [
+        "Near misses",
+        "Incidents",
+        "Root cause"
+      ]
+    },
+    {
+      "id": "crew",
+      "table": "crew",
+      "label": "Crew Scheduling",
+      "description": "Crew Scheduling workspace for Rail Maintenance Safety Operations Suite.",
+      "subfeatures": [
+        "Qualifications",
+        "Shifts",
+        "Fatigue"
+      ],
+      "prefix": "CS",
+      "seedValues": [
+        "Qualifications",
+        "Shifts",
+        "Fatigue"
+      ]
+    },
+    {
+      "id": "compliance",
+      "table": "compliance",
+      "label": "FRA Compliance",
+      "description": "FRA Compliance workspace for Rail Maintenance Safety Operations Suite.",
+      "subfeatures": [
+        "Rules",
+        "Reports",
+        "Audit"
+      ],
+      "prefix": "FC",
+      "seedValues": [
+        "Rules",
+        "Reports",
+        "Audit"
+      ]
+    },
+    {
+      "id": "service-impact",
+      "table": "serviceImpact",
+      "label": "Service Impact",
+      "description": "Service Impact workspace for Rail Maintenance Safety Operations Suite.",
+      "subfeatures": [
+        "Delay risk",
+        "Outages",
+        "Customer impact"
+      ],
+      "prefix": "SI",
+      "seedValues": [
+        "Delay risk",
+        "Outages",
+        "Customer impact"
+      ]
+    },
+    {
+      "id": "analytics",
+      "table": "analytics",
+      "label": "Reliability Analytics",
+      "description": "Reliability Analytics workspace for Rail Maintenance Safety Operations Suite.",
+      "subfeatures": [
+        "MTBF",
+        "Backlog",
+        "Risk"
+      ],
+      "prefix": "RA",
+      "seedValues": [
+        "MTBF",
+        "Backlog",
+        "Risk"
+      ]
+    }
+  ],
+  "port": 5617
+}
